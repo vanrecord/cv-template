@@ -211,22 +211,22 @@ export default function CV() {
                       "JavaScript ES6",
                       "TypeScript",
                       "React.js",
-                      "Vue.js",
                       "Next.js",
+                      // "Vue.js",
+                      
                       // "Nuxt.js",
                     ]}
                   />
                   <SkillCategory
                     title="Back-End"
                     skills={[
-                      "Node.js",
+                      "Python",
                       "PHP",
                       "Golang",
                       // "Python",
                       // "Java",
                       // "C#",
                       "PostgreSQL",
-                      "MangoDB",
                     ]}
                   />
                   <SkillCategory
