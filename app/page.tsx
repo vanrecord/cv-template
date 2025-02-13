@@ -79,7 +79,7 @@ export default function CV() {
                     HUM SOPHA
                   </h1>
                   <p className="text-2xl print:text-lg text-blue-200 font-medium">
-                    Web Developer
+                    Software Developer
                   </p>
                 </div>
               </div>
@@ -117,17 +117,16 @@ export default function CV() {
             <div className="p-8 print:p-0 print:mt-1">
               <Section title="Professional Summary">
                 <p className="text-base print:text-[16px] text-gray-700 leading-relaxed print:leading-[1.3]">
-                  Results-driven Web Developer with over 4 years of experience
-                  at Peth Yoeung Co., Ltd, demonstrating progressive growth from
-                  intern to full-fledged developer. Proven expertise in
-                  developing and maintaining high-performance web applications,
-                  with a strong focus on code optimization and feature
-                  implementation. Distinguished track record in systems
-                  integration, particularly in implementing secure payment
-                  gateways with banking institutions. Demonstrated leadership
-                  through successful mentorship of junior developers or
-                  internships. and significant contributions to the
-                  organization&apos;s growth and success.
+                  Dynamic Software Developer with 4+ years of progressive experience at Peth Yoeung Co., Ltd, 
+                  demonstrating exceptional commitment to delivering high-impact solutions under demanding deadlines. 
+                  Consistently achieved match on-time project delivery through effective time management and dedication 
+                  to excellence. Proactively embraces emerging technologies, dedicating 10+ hours weekly to learning 
+                  new programming or frameworks and tools, resulting in successful implementation of cutting-edge solutions that 
+                  reduced system response time. Specialized in architecting build and scalable web applications and 
+                  secure payment integrations. Distinguished track record of mentoring junior developers and driving 
+                  technical innovation, while maintaining a strong focus on continuous learning and adaptation to 
+                  industry trends. Recognized for outstanding contributions to critical projects and ability to 
+                  transform complex requirements into efficient, production-ready solutions.
                 </p>
               </Section>
 
@@ -220,13 +219,21 @@ export default function CV() {
                   <SkillCategory
                     title="Back-End"
                     skills={[
-                      "Python",
                       "PHP",
+                      "Python",
                       "Golang",
-                      // "Python",
                       // "Java",
                       // "C#",
+                    ]}
+                  />
+                  <SkillCategory
+                    title="Database"
+                    skills={[
+                      "MySQL",
                       "PostgreSQL",
+                      // "MongoDB",
+                      "SQLite",
+                      // "Firebase",
                     ]}
                   />
                   <SkillCategory
