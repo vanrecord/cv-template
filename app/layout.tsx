@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'HUM SOPHA - Software Developer CV',
-  description: 'Professional CV of HUM SOPHA, Software Developer with 4+ years of experience',
+  title: 'HUM SOPHA - Softwaore Developer CV',
+  description: 'Professional CV of HUM SOPHA, Web Developer with 4+ years of experience',
 }
 
 export default function RootLayout({
@@ -151,18 +151,14 @@ export default function RootLayout({
               gap: 0.5rem !important;
             }
 
-            /* Improved text flow */
+            /* Improve text flow */
             p {
               text-align: justify !important;
               max-width: 100% !important;
               overflow-wrap: break-word !important;
               word-wrap: break-word !important;
-              orphans: 4 !important;
-              widows: 4 !important;
-              margin-bottom: 0.5rem !important;
-              display: block !important;
-              height: auto !important;
-              min-height: 0 !important;
+              orphans: 4 !important; /* Increase orphans */
+              widows: 4 !important;  /* Increase widows */
             }
             
             /* Prevent unwanted breaks within paragraphs */
@@ -178,56 +174,6 @@ export default function RootLayout({
               min-height: 0 !important;
               height: auto !important;
               display: block !important;
-            }
-
-            /* Add these new styles */
-            .text-base.print\\:text-\\[16px\\].text-gray-700.leading-relaxed.print\\:leading-\\[1\\.3\\] {
-              display: block !important;
-              column-fill: balance !important;
-              break-inside: avoid-column !important;
-              text-align-last: justify !important;
-              margin-bottom: 0 !important;
-              min-height: 0 !important;
-              height: auto !important;
-              position: relative !important;
-            }
-
-            /* Prevent orphaned text at page breaks */
-            section {
-              break-inside: avoid-page !important;
-            }
-
-            /* Better spacing control for text blocks */
-            .print\\:compress-space {
-              margin-bottom: 0.25rem !important;
-              padding-bottom: 0.25rem !important;
-            }
-
-            /* Optimize space usage */
-            .print\\:optimize-space {
-              min-height: 0 !important;
-              height: auto !important;
-              overflow: hidden !important;
-            }
-
-            /* Adjust Professional Summary section spacing */
-            section:first-of-type {
-              margin-top: 0.5rem !important;
-              padding-top: 0 !important;
-            }
-
-            /* Optimize first page layout */
-            .print\\:optimize-first-page {
-              margin-top: 0 !important;
-              padding-top: 0 !important;
-            }
-
-            /* Improve vertical space utilization */
-            .print\\:fill-vertical-space {
-              display: flex !important;
-              flex-direction: column !important;
-              justify-content: flex-start !important;
-              height: auto !important;
             }
           }
         `}</style>

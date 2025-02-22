@@ -330,8 +330,8 @@ export default function CV() {
               </Section>
 
               <Section title="References">
-                {/* <p className="text-sm text-gray-700">Available upon request.</p> */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 print:gap-2">
+                <p className="text-sm text-gray-700">Available upon request.</p>
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 print:gap-2">
                   <div>
                     <h3 className="text-lg font-semibold text-blue-900 mb-1 print:text-[16px] print:mb-0.5">
                       Mr. KHUCH Penh
@@ -358,7 +358,7 @@ export default function CV() {
                     </p>
                     <p className="text-base text-gray-600 print:text-[16px]"></p>
                   </div>
-                </div>
+                </div> */}
               </Section>
             </div>
           </div>
