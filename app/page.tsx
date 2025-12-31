@@ -68,7 +68,7 @@ export default function CV() {
               <div className="flex items-center gap-6 print:gap-4">
                 <div className="relative w-32 h-32 print:h-58 print:w-58 rounded-full overflow-hidden border-4 border-white/30 shadow-xl print:shadow-none print:border-2">
                   <Image
-                    src="/Sopha.JPG"
+                    src="/Sopha.webp"
                     alt="Profile"
                     fill
                     className="object-cover"
