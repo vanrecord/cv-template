@@ -68,7 +68,7 @@ export default function CV() {
               <div className="flex items-center gap-6 print:gap-4">
                 <div className="relative w-32 h-32 print:h-58 print:w-58 rounded-full overflow-hidden border-4 border-white/30 shadow-xl print:shadow-none print:border-2">
                   <Image
-                    src="/Sopha.webp"
+                    src="/Sovann.PNG"
                     alt="Profile"
                     fill
                     className="object-cover"
@@ -76,7 +76,7 @@ export default function CV() {
                 </div>
                 <div>
                   <h1 className="text-4xl print:text-[28px] font-bold mb-2 print:mb-1">
-                    HUM SOPHA
+                    CHAN SOVANN
                   </h1>
                   <p className="text-2xl print:text-[20px] text-blue-200 font-medium">
                     Software Developer
@@ -86,30 +86,30 @@ export default function CV() {
               <div className="mt-6 print:mt-3 flex flex-wrap gap-4 print:gap-2 text-base print:text-[16px]">
                 <ContactInfo
                   icon={<Mail className="w-5 h-5 print:w-4 print:h-4" />}
-                  text="sopha.humm@gmail.com"
+                  text="vanrecord1122@gmail.com"
                 />
                 <ContactInfo
                   icon={<Phone className="w-5 h-5 print:w-4 print:h-4" />}
-                  text="015-607-950"
+                  text="067-474-447"
                 />
                 <ContactInfo
                   icon={<MapPin className="w-5 h-5 print:w-4 print:h-4" />}
-                  text="Somkol sal II, Beng Topun, Mean Chey, Phnom penh"
+                  text="Prek Ruessey, Prek Ruessey, Ta khmau, Kandal"
                 />
                 <ContactInfo
                   icon={<Globe className="w-5 h-5 print:w-4 print:h-4" />}
-                  text="https://hum-sopha.vercel.app"
-                  link="https://hum-sopha.vercel.app"
+                  text="https://chan-sovann-portfolio.vercel.app/"
+                  link="https://chan-sovann-portfolio.vercel.app/"
                 />
                 <ContactInfo
                   icon={<Github className="w-5 h-5 print:w-4 print:h-4" />}
                   text="GitHub"
-                  link="https://github.com/SophaHum"
+                  link="https://github.com/vanrecord"
                 />
                 <ContactInfo
                   icon={<Linkedin className="w-5 h-5 print:w-4 print:h-4" />}
                   text="LinkedIn"
-                  link="https://www.linkedin.com/in/sopha-hum-b288a419a"
+                  link="https://x.com/sovann1534056?s=21"
                 />
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function CV() {
                 className="print:mb-4 print:pb-2"
               >
                 <p className="text-base print:text-[16px] text-gray-700 print:leading-[1.3] print:break-inside-avoid print:mb-4">
-                  Dynamic Software Developer with 4+ years of progressive
+                  Dynamic Software Developer with 6+ years of progressive
                   experience at Peth Yoeung Co., Ltd, demonstrating exceptional
                   commitment to delivering high-impact solutions under demanding
                   deadlines. Consistently achieved match on-time project
@@ -146,23 +146,39 @@ export default function CV() {
               >
                 <div className="space-y-4 print:space-y-2">
                   <WorkExperience
+                    title="Senior Web Developer"
+                    company="Peth Yoeung Co., Ltd"
+                    period="January 2024 - Present"
+                    responsibilities={[
+                      "Lead the development and optimization of enterprise-level web applications using modern JavaScript frameworks, Vue.js, and Laravel", 
+                      "Initiate and lead new project development, from gathering business requirements and defining technical solutions to system architecture, implementation, and deployment", 
+                      "Participate in business requirement meetings with stakeholders to analyze business needs, clarify project scope, and translate requirements into technical specifications", 
+                      "Lead the design and implementation of secure payment gateway integrations with multiple banking institutions", 
+                      "Participate in weekly Scrum meetings to discuss project progress, review completed tasks, identify blockers, and coordinate development priorities with the team",
+                      "Make technical architecture decisions and establish best practices to ensure application scalability, security, maintainability, and performance", 
+                      "Mentor junior developers, conduct code reviews, and promote coding standards to maintain high-quality software development", 
+                      "Analyze complex technical challenges and client requirements to deliver flexible, reliable, and effective software solutions", 
+                      "Collaborate with cross-functional teams to deliver solutions that meet business objectives and enhance user experience"
+                    ]}
+                  />
+                  <WorkExperience
                     title="Web Developer"
                     company="Peth Yoeung Co., Ltd"
-                    period="December 2023 - Present"
+                    period="January 2023 - December 2023"
                     responsibilities={[
-                      "Lead the development and optimization of enterprise-level web applications using modern JavaScript frameworks and Laravel",
-                      "Spearhead the implementation of secure payment gateway integrations with multiple banking institutions",
-                      "Mentor junior developers and conduct regular code reviews to maintain high code quality standards",
-                      "Drive technical architecture decisions and implement best practices for scalable application development",
-                      "Collaborate with cross-functional teams to deliver innovative solutions that enhance user experience",
-                      "Responsible for the complexity and flexibility of the client's issues and ensure the development of web applications with high performance and scalability",
+                      "Developed and maintained web applications using Laravel and modern JavaScript frameworks", 
+                      "Implemented new features and optimized existing functionality to improve application performance and usability", 
+                      "Collaborated with team members to analyze requirements, troubleshoot technical issues, and deliver solutions aligned with client needs", 
+                      "Designed and integrated backend APIs to support frontend functionality and system integrations", "Participated in code reviews, debugging, testing, and application maintenance to ensure software quality and reliability", 
+                      "Contributed to the development of new projects using Vue.js and Laravel, including project setup, feature implementation, and deployment support",
+                      "Initiate and develop new projects using modern Vue.js and Laravel technologies, from project setup and architecture design to implementation and deployment"
                     ]}
                   />
                   <div className="print:mb-page">
                     <WorkExperience
                       title="Junior Web Developer"
                       company="Peth Yoeung Co., Ltd"
-                      period="May 2021 - December 2023"
+                      period="March 2021 - December 2022"
                       responsibilities={[
                         "Engineered robust web applications utilizing Laravel, JavaScript, and PostgreSQL, ensuring scalability and performance",
                         "Partnered with senior developers to implement complex features and resolve critical issues efficiently",
@@ -176,7 +192,7 @@ export default function CV() {
                     <WorkExperience
                       title="Web Development Intern"
                       company="Peth Yoeung Co., Ltd"
-                      period="December 2020 - May 2021"
+                      period="September 2020 - February 2021"
                       responsibilities={[
                         "Developed web applications using HTML, CSS, JavaScript, and Laravel(PHP) under senior developer mentorship",
                         "Designed and implemented responsive user interfaces that enhanced overall project usability",
@@ -249,19 +265,15 @@ export default function CV() {
                       "Tailwind CSS",
                       "JavaScript ES6",
                       "TypeScript",
+                      "Vue.js",
                       "React.js",
-                      "Next.js",
-                      // "Vue.js",
-
-                      // "Nuxt.js",
+                      "Next.js"
                     ]}
                   />
                   <SkillCategory
                     title="Back-End"
                     skills={[
-                      "PHP",
-                      "Python",
-                      "Golang",
+                      "PHP"
                       // "Java",
                       // "C#",
                     ]}
@@ -269,10 +281,10 @@ export default function CV() {
                   <SkillCategory
                     title="Database"
                     skills={[
-                      "MySQL",
                       "PostgreSQL",
+                      "MySQL"
+                      
                       // "MongoDB",
-                      "SQLite",
                       // "Firebase",
                     ]}
                   />
@@ -282,9 +294,9 @@ export default function CV() {
                       "Ubuntu OS",
                       "Git",
                       // "GitHub Actions",
-                      "Docker",
+                      // "Docker",
                       // "Jenkins",
-                      "Kubernetes",
+                      // "Kubernetes",
                       // "Grafana",
                       "AWS",
                       "Vercel",
